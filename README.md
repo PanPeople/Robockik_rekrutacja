@@ -138,7 +138,7 @@ drobne notatki:
 
 Nie udało mi się dokończyć schematy połączeniowego, mam tylko pobrane schematy użytych komponentów.
 
-<img src=".\matrix_M.png" alt="" style="zoom: 50%;" />
+<img src=".\matrix_m.png" alt="" style="zoom: 50%;" />
 
 <img src=".\matrix_C.png" alt="" style="zoom: 50%;" />
 
