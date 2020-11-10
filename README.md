@@ -200,3 +200,31 @@ Co do odwróconego sygnału, uznałem że chodzi o logiczną negację, ale pewny
 Dlatego w kodzie dodałem drugą funkcje inicjalizującą timer, gdzie ustawiam tryb na PWM_MODE_2
 
 Mógłbym zrobić to w samym Cube, ale postanowiłem zajrzeć to funkcji inicjującej i sam zrobić podmiankę.
+
+
+
+### Sekcja "O Tobie"
+
+Witam, jestem Mikołaj. Chciałbym się ubiegać o stanowisko na dział Elektroniki do poddziału software. No generalnie lubię robić też inne rzeczy, modelowanie, druk 3d, elektronika użytkowa.  Ale teraz zacząłem bawić się więcej w software bo w sumie bez niego nic nie zrobię przy projektach.
+Ale generalnie to lubię elektronikę, niestety jestem człekiem po liceum więc wiedza jest zdobywana metodą nieuporządkowanej losowości.
+Ale mimo to udał mi się zrobić w swojej małej "karierze" kilka ciekawych rzeczy:
+
+<img src=".\zdjecia\zdjecie (1).jpg" alt="" style="zoom: 30%;" />
+
+> w pełni przenośna konsola Nintendo Wii, nie jest to emulator a pełnoprawna przycięta płyta główna od Wii oraz elegancki ekran LCD na złączu VGA
+
+<img src=".\zdjecia\zdjecie (1).png" alt="" style="zoom: 30%;" />
+
+	>Manipulator na serwach
+
+<img src=".\zdjecia\zdjecie (2).jpg" alt="" style="zoom: 20%;" />
+
+> moja Anet A6, po wielu modyfikacjach, w tym czujnik auto poziomowania oparty o diodę i fotokomórkę
+
+<img src=".\zdjecia\zdjecie (4).jpg" alt="" style="zoom: 60%;" />
+
+> mój głośnik bluetooth, z fajnych bajerów to brak pętli uziemienia więc nie ma pierdzenia i pisków
+
+
+
+No i lubię dobre gry, fabuła na pierwszym miejscu np. Life is Stange. Lubię MCU, ale najlepszy super bohater to Batman.
