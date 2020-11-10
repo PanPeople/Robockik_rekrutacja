@@ -46,7 +46,7 @@ Przez to po zaniku zasilania będę mógł sczytać ostatnio użyty adres i prze
 
 #### `link do kodu:`
 
-[Robocik_1]()
+[Robocik_1](https://github.com/PanPeople/Robockik_rekrutacja/tree/master/Robocik_1)
 
 ### Zadanie 2: Czujnik wilgoci
 
@@ -89,13 +89,15 @@ Płytkę wykonałem w programie KiCad, w Internecie znalazłem biblioteki potrze
 
 <img src=".\schemat_zad_2.png" alt="" style="zoom: 40%;" />
 
+<img src=".\pcb_view_zad_2.png" alt="" style="zoom: 40%;" />
+
 <img src=".\pcb_zad_2.png" alt="" style="zoom: 40%;" />
 
 Niestety jest to moje pierwsze pcb, więc na pewno pachnie (lub jak kto woli "śmierdzi") amatorszczyzną, ja jestem zadowolony w każdym razie.
 
 #### `link do kodu:`
 
-[Robocik_2]()
+[Robocik_2](https://github.com/PanPeople/Robockik_rekrutacja/tree/master/Robocik_2)
 
 ### Zadanie 3: STM32 + CAN
 
@@ -155,7 +157,7 @@ Następnie wysyła się adres interesującej nas liczby(gdybyśmy korzystali z M
 
 #### `link do kodu:`
 
-[Robocik_4]()
+[Robocik_4](https://github.com/PanPeople/Robockik_rekrutacja/tree/master/Robocik_4)
 
 ### Zadanie 5: Drgania styków - programowo
 
@@ -176,6 +178,10 @@ Każdy pomiar input capture, który zmieścił się w narzuconym zakresie (czas 
 Dodatkowo doczytałem że, do debouncingu mógłbym wykorzystać dodatkowo filtr RC ze wzorem: $f =\frac{1}{2\Pi \cdot R \cdot C }$
 
 Więc można by wykorzystać np. warości  10$k\Omega$ oraz 10$\mu F$ 
+
+#### `link do kodu:`
+
+[Robocik_5](https://github.com/PanPeople/Robockik_rekrutacja/tree/master/Robocik_5)
 
 ### ZADANIE 6: ESC
 
@@ -201,7 +207,9 @@ Dlatego w kodzie dodałem drugą funkcje inicjalizującą timer, gdzie ustawiam 
 
 Mógłbym zrobić to w samym Cube, ale postanowiłem zajrzeć to funkcji inicjującej i sam zrobić podmiankę.
 
+#### `link do kodu:`
 
+[Robocik_6](https://github.com/PanPeople/Robockik_rekrutacja/tree/master/Robocik_6)
 
 ### Sekcja "O Tobie"
 
