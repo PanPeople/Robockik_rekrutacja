@@ -207,6 +207,22 @@ Dlatego w kodzie dodałem drugą funkcje inicjalizującą timer, gdzie ustawiam 
 
 Mógłbym zrobić to w samym Cube, ale postanowiłem zajrzeć to funkcji inicjującej i sam zrobić podmiankę.
 
+**Dlaczego STM32 a nie RPi** //przepraszam że dodałem to po czasie ale po prostu zapominałem :(
+Generalnie zdanie we mnie jest podzielone, ale napisałem to na STM32 ponieważ to miałem pod ręką. Gdyby robić to tak na prawdę to odpowiedź wyglądałaby "to zależy". Gdybym robił własną deskorolkę/hulajnogę to na pewno użyłbym STM32 + jakieś połączenie bezprzewodowe z pilotem, albo potencjometr (dla hulajnogi).
+
+Ale obstawiam że pytanie było powiązane z zastosowaniem w ROV, tam moim zdaniem warto ograniczać ilość używanych części alby zaoszczędzić, czas, miejsce, oraz problemy aby "wszystko razem grało". Dodatkowo wysyłanie do STM-ki przez RPi danych o tym jakie wypełnienie puścić na ESC jest trochę overkill, samo RPi jest zdolne to takich operacji (no chyba że jest czymś mocno zajęte). Dodatkowo w takim połączeniu może nawalić więcej rzeczy (np. UART i zakłócenia, podciąganie zasilania pod kolejne urządzenie ). Więc do autonomicznej łodzi umieszczałbym jak najmniej zbędnych części. Ostatnim aspektem może być czas reakcji rozwiązania. Są to milisekundy ale może właśnie zależy nam w danym zastosowaniu na właśnie na niskiej latencji. 
+
+podsumowując:
+
+Sterowanie ESC nie wymaga dużych zasobów i skomplikowania programistycznego (są do tego nawet gotowe libki w pythonie) więc dodawanie do takiego rozwiązania dodatkowego mikrokontrolera utrudnia tylko niepotrzebnie zadanie.**Dlaczego STM32 a nie RPi** //przepraszam że dodałem to po czasie ale po prostu zapominałem :(
+Generalnie zdanie we mnie jest podzielone, ale napisałem to na STM32 ponieważ to miałem pod ręką. Gdyby robić to tak na prawdę to odpowiedź wyglądałaby "to zależy". Gdybym robił własną deskorolkę/hulajnogę to na pewno użyłbym STM32 + jakieś połączenie bezprzewodowe z pilotem, albo potencjometr (dla hulajnogi).
+
+Ale obstawiam że pytanie było powiązane z zastosowaniem w ROV, tam moim zdaniem warto ograniczać ilość używanych części alby zaoszczędzić, czas, miejsce, oraz problemy aby "wszystko razem grało". Dodatkowo wysyłanie do STM-ki przez RPi danych o tym jakie wypełnienie puścić na ESC jest trochę overkill, samo RPi jest zdolne to takich operacji (no chyba że jest czymś mocno zajęte). Dodatkowo w takim połączeniu może nawalić więcej rzeczy (np. UART i zakłócenia, podciąganie zasilania pod kolejne urządzenie ). Więc do autonomicznej łodzi umieszczałbym jak najmniej zbędnych części. Ostatnim aspektem może być czas reakcji rozwiązania. Są to milisekundy ale może właśnie zależy nam w danym zastosowaniu na właśnie na niskiej latencji. 
+
+podsumowując:
+
+Sterowanie ESC nie wymaga dużych zasobów i skomplikowania programistycznego (są do tego nawet gotowe libki w pythonie) więc dodawanie do takiego rozwiązania dodatkowego mikrokontrolera utrudnia tylko niepotrzebnie zadanie.
+
 #### `link do kodu:`
 
 [Robocik_6](https://github.com/PanPeople/Robockik_rekrutacja/tree/master/Robocik_6)
